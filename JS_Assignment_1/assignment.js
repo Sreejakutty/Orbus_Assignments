@@ -17,7 +17,7 @@ function onSubmitValidation(operation){
     }
     if (number2 === 0){
         const num2 = document.querySelector(".num2")
-        const existingError2 = num1.querySelector(".error-msg2");
+        const existingError2 = num2.querySelector(".error-msg2");
         if (!existingError2) {
             const errorElement2 = document.createElement("span")
             errorElement2.innerText = "Number2 cannot be empty.";
