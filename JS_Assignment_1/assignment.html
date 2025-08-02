@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assignment.css">
+</head>
+
+<body>
+    <div>
+        <form>
+            <div class="num1 field">
+                <label for="number1">Enter Number1:</label>
+                <input type="number" id="number1" name="number1" placeholder="Enter a number"
+                    style="margin-left: 5px;" />
+            </div>
+            <div class="num2 field">
+                <label for="number2"> Enter Number2:</label>
+                <input type="number" id="number2" name="number1" placeholder="Enter a number"
+                    style="margin-left: 5px;" />
+            </div>
+            <div class="submit-button">
+                <button type="button" class="hand-pointer" onclick="onSubmitValidation('add')">Addition</button>
+                <button type="button" class="hand-pointer" onclick="onSubmitValidation('sub')">Subtraction</button>
+                <button type="button" class="hand-pointer" onclick="onSubmitValidation('mul')">Multiplication</button>
+            </div>
+            <div class="output">
+                <label for="output">Output:</label>
+                <input type="text" id="output" name="output" readonly />
+            </div>
+        </form>
+    </div>
+    <script src="assignment.js"></script>
+</body>
+
+</html>

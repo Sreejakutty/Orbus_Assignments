@@ -1,0 +1,20 @@
+.main-container{
+    border: 1px solid black;
+    width: 400px;
+    height: 150px;
+    border-radius: 15px;
+}
+.field, .output{
+   margin: 10px;
+}
+.submit-button{
+    margin-left: 10px;
+    margin: 10px;
+}
+.hand-pointer {
+    cursor: pointer;
+}
+#error1, #error2{
+    display: flex;
+    margin-top: 10px;
+}
