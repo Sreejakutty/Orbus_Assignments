@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assignment3.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="heading">
+            <h2>Beautiful Task Manager UI</h2>
+        </div>
+        <div>
+            <ul class="list">
+                <li>Modern</li>
+                <li>Elegant</li>
+                <li>Functional</li>
+            </ul>
+        </div>
+        <div class="task-container">
+            <div class="taskflow-header">
+                <div class="icon">
+                    <span class="checkmark">✔</span>
+                </div>
+                <div class="task-header">
+                    <h1>TaskFlow</h1>
+                    <p>Organize your day beautifully</p>
+                </div>
+            </div>
+            <div class="add-task-container">
+                <form>
+                    <div style="margin-bottom: 7px;">Add New Task</div>
+                    <div>
+                        <input type="text" name="newtask" id="newtask" placeholder="Enter your task..." value="">
+                        <button type="button" id="text-button" onclick="addTask()">Add Task</button>
+                    </div>
+                </form>
+            </div>
+            <div class="task-section">
+                <h3 style="margin-left: 20px; margin-bottom: 5px;">Your Tasks</h3>
+                <p class="task-count" id="task-count">0 tasks • 0 completed</p>
+            </div>
+            <div class="task-list" id="task-list">
+            </div>
+        </div>
+    </div>
+    <script src="assignment3.js"></script>
+</body>
+
+</html>
